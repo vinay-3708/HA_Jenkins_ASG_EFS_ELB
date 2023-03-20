@@ -1,17 +1,19 @@
 # HA_Jenkins_ASG_EFS_ELB
-This is a project where I have configured the required AWS services like EC2, ELB, ASG, SG and etc to setup the high availability jenkins for small teams with minimum of 2 EC instances which in-sync together. 
+<ul>
+<li> This is a project where I have configured the required AWS services like EC2, ELB, ASG, SG and etc to setup the high availability jenkins for small teams with minimum of 2 EC instances which in-sync together. </li> 
 
 
-In this project, We are using EFS as storage file system for jenkins. We have attached this EFS to /var/lib/jenkins path in the Launch configuration of EC2 in user data. 
+<li> In this project, We are using EFS as storage file system for jenkins. We have attached this EFS to /var/lib/jenkins path in the Launch configuration of EC2 in user data.</li> 
 
-Configured a cronjob which keeps the jenkins in-sync with EFS changes made by the other jenkins server.
+<li> Configured a cronjob which keeps the jenkins in-sync with EFS changes made by the other jenkins server.</li>
 
-Utilised ALB to expose the jenkins servers.
+<li> Utilised ALB to expose the jenkins servers.</li>
 
-Auto-scaling groups are used to maintained the minimum of 2 EC2 instances always.
+<li> Auto-scaling groups are used to maintained the minimum of 2 EC2 instances always.</li>
 
-Go through this <a href="HA_JENKINS.pdf">PDF</a> to setup the following HA_Jenkins architecure.
-
+<li> Go through this <a href="HA_JENKINS.pdf">PDF</a> to setup the following HA_Jenkins architecure.</li>
+</ul>
+<br />
 # ARCHITECTURE:
 
 <img src="Raw_Content/Architecture.PNG">
