@@ -14,4 +14,4 @@ Go through this <a href="HA_JENKINS.pdf">PDF</a> to setup the following HA_Jenki
 
 # ARCHITECTURE:
 
-<img src="Raw_Content/Architecture.png">
+<img src="Raw_Content/Architecture.PNG">
