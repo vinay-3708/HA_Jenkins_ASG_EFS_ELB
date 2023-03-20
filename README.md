@@ -14,6 +14,7 @@
 <li> Go through this <a href="HA_JENKINS.pdf">PDF</a> to setup the following HA_Jenkins architecure.</li>
 </ul>
 <br />
+
 # ARCHITECTURE:
 
 <img src="Raw_Content/Architecture.PNG">
